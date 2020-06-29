@@ -1,0 +1,14 @@
+{
+  "/password/**": {
+    "target": "http://localhost:9056/",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {"/password":  ""}
+  },
+  "/sms/**": {
+    "target": "http://localhost:9057/",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {"/sms":  ""}
+  }
+}
